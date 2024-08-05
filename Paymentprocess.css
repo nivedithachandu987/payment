@@ -1,0 +1,93 @@
+.payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-form h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    background: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .payment-form h2 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666666;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+  }
+  
+  .form-group input::placeholder {
+    color: #dcdcdc;
+  }
+  
+  .form-group input[type="text"] {
+    margin-bottom: 10px;
+  }
+  
+  .form-group select:disabled {
+    background-color: #f9f9f9;
+  }
+  
+  .error {
+    color: #f44336;
+    font-size: 0.875em;
+    margin-top: 5px;
+  }
+  
+  .success {
+    color: green;
+    font-size: 1.125em;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a4a8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #393979;
+  }
+  
+  .price-display {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .payment-form h1, h2 {
+    text-align: center;
+  }
